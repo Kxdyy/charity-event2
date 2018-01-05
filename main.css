@@ -1,5 +1,6 @@
 body {
   background-color: #dddddd;
+  font-size: 20px;
 }
 
 div.container {
@@ -22,12 +23,21 @@ div.container {
 header {
   background-color: #99ffff;
   grid-area: header;
+  font-family: 'Bangers', cursive;
 }
 
 img{
   max-width: 100%;
 }
 
+img.logo{
+  display: block;
+  margin: auto;
+  width: 200px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
 
 main {
 
@@ -72,4 +82,18 @@ footer {
       "about signup"
       "footer footer";
   }
+}
+h1{
+  text-align: left;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-indent: 20px;
+  padding-left: 7px;
 }
